@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#9CF398"> <!-- Background color can be white -->
+
+    <!-- Scan Button with Image and Text -->
+    <LinearLayout
+        android:id="@+id/scan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/scan" /> <!-- Use your scan icon -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCAN"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <!-- Manual Form Button with Image and Text -->
+
+</LinearLayout>

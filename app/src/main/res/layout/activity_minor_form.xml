@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9CF398"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offense: Minor"
+        android:textSize="20sp"
+        android:textColor="#009F3C"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- CardView for Displaying Data Details -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView android:id="@+id/student_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" />
+            <TextView android:id="@+id/student_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/student_program" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/department" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+            <TextView android:id="@+id/personnel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textSize="16sp" android:textColor="#009F3C" android:textStyle="bold" android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Spinner
+        android:id="@+id/minorOff_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009F3C"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009F3C"
+        android:text="Cancel"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

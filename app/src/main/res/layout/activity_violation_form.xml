@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9CF398"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#009F3C"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#009F3C"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/student_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#009F3C"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#009F3C"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:text="" />
+
+
+    <EditText
+        android:id="@+id/date_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:focusable="false"
+        android:hint="Select Date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/time_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Time of Violation"
+        android:focusable="false"
+        android:minHeight="48dp"/>
+
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter student email here"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/personnel_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Enter personnel name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"/>
+
+
+    <!-- Select Major Offense Button -->
+    <Button
+        android:id="@+id/select_major_offense_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009F3C"
+        android:text="Select Major Offense"
+        android:minHeight="48dp"/>
+
+    <!-- Select Minor Offense Button -->
+    <Button
+        android:id="@+id/select_minor_offense_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#009F3C"
+        android:text="Select Minor Offense"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#009F3C"
+        android:text="Cancel"/>
+
+</LinearLayout>
